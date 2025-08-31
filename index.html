@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./img/favicon.png">
+  </head>
+  <body onload="render()">
+    <header>
+      <div class="hearder-content">
+        <nav>
+          <img
+            src="./img/logo.png"
+            alt="the logo of the game, a table with colorful crosses and circles"
+            class="logo"
+          />
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-content">
+        <h1>Tic Tac Toe Game</h1>
+        <section id="container"></section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+         <img
+            src="./img/logo.png"
+            alt="the logo of the game, a table with colorful crosses and circles"
+            class="logo"
+          />
+          <span> &copy; Miruna Agopian - Alle Rechte vorbehalten</span>
+      </div>
+    </footer>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>

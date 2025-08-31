@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #fdba1d;
+}
+.logo {
+    height: 64px;
+    width: 64px;
+}
+.hearder-content,
+.main-content,
+.footer-content {
+    max-width: 1440px;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(77, 223, 174);
+    display: flex;
+    justify-content: center;
+}
+
+.hearder-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+}
+nav {
+    display: flex;
+}
+
+main {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+/* The tic-tac-toe table */
+#container table {
+  border-collapse: collapse;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Each cell */
+#container td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #333;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect */
+#container td:hover {
+  background: #f0f0f0;
+}
+
+/* Different colors for X and O */
+#container td:contains("X") {
+  color: #e74c3c; /* Red for X */
+}
+#container td:contains("O") {
+  color: #3498db; /* Blue for O */
+}
+
+/* Different colors for X and O */
+.cross {
+  color: #e74c3c; /* Red for X */
+}
+.circle {
+  color: #3498db; /* Blue for O */
+}
+
+footer {
+    background-color: rgb(77, 223, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 80px;
+}
