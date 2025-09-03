@@ -1,7 +1,8 @@
 body{
-    margin: auto;
+    margin: 0;
     box-sizing: border-box;
-    background-color: #fdba1d;
+    background-color: #4a4a4a;
+    color: white
 }
 .logo {
     height: 64px;
@@ -15,7 +16,7 @@ body{
 }
 
 header {
-    background-color: rgb(77, 223, 174);
+    background-color: #201f1f;
     display: flex;
     justify-content: center;
 }
@@ -50,6 +51,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 50vh;
+  position: relative;
 }
 
 /* The tic-tac-toe table */
@@ -68,7 +70,7 @@ main {
   font-size: 2.5em;
   font-weight: bold;
   cursor: pointer;
-  border: 2px solid #333;
+  border: 2px solid #686464;
   transition: background 0.3s ease;
 }
 
@@ -93,8 +95,25 @@ main {
   color: #3498db; /* Blue for O */
 }
 
+#reset-btn {
+    margin-top: 16px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#reset-btn:hover {
+    background-color: #2980b9;
+}
+
+
 footer {
-    background-color: rgb(77, 223, 174);
+    background-color: #201f1f;
     display: flex;
     justify-content: center;
     align-items: center;
