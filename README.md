@@ -40,5 +40,5 @@ cd tic-tac-toe-prompt-engineered
 open index.html
 ```
 
-🧑‍🎨 Author
+##🧑‍🎨 Author
 Created by Miruna-Alexandra in collaboration with Microsoft Copilot — a fusion of creativity, curiosity, and conversational coding.
