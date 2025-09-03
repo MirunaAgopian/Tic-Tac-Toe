@@ -38,6 +38,7 @@ Just clone or download the project and open `index.html` in your browser. No bui
 git clone https://github.com/yourusername/tic-tac-toe-prompt-engineered.git
 cd tic-tac-toe-prompt-engineered
 open index.html
+```
 
 🧑‍🎨 Author
 Created by Miruna-Alexandra in collaboration with Microsoft Copilot — a fusion of creativity, curiosity, and conversational coding.
